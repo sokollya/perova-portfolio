@@ -1,5 +1,9 @@
 body {
   background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .icon {
@@ -14,8 +18,67 @@ img {
   width: 300px;
 }
 
-.container {
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+i {
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.number {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  opacity: 0.7;
+}
+.paragraph {
+  margin-top: 120px;
+  text-align: left;
+}
+.greeting {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+.about-photo img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 300px;
+  margin-top: 10px;
+}
+.wed {
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.gallery {
+  margin-right: 250px;
+}
+.gallery-right {
+  margin-left: 100px;
+}
+.container {
+  margin-top: 50px;
 }
